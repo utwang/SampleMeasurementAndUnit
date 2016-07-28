@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11173.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11143.2"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SampleMeasurementAndUnit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="走行距離:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ut3-eo-aJ4">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ガス単価:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lar-RG-8RA">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="燃費:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hqm-Jy-UUy">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金額:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bid-vQ-bHY">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="400km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKY-UB-RW9">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120円/L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYl-Ah-aeZ">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 km/L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bn4-wX-f0s">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4800円" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6za-1F-nXM">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lar-RG-8RA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="18d-gN-6ST"/>
+                            <constraint firstItem="6za-1F-nXM" firstAttribute="leading" secondItem="kKY-UB-RW9" secondAttribute="leading" id="1MF-8q-l7a"/>
+                            <constraint firstItem="Hqm-Jy-UUy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="4fx-9L-NyD"/>
+                            <constraint firstItem="RYl-Ah-aeZ" firstAttribute="leading" secondItem="lar-RG-8RA" secondAttribute="trailing" constant="50" id="6bj-AT-oaP"/>
+                            <constraint firstItem="Ut3-eo-aJ4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="7zi-xn-KOu"/>
+                            <constraint firstItem="kKY-UB-RW9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="GSl-3g-3xM"/>
+                            <constraint firstItem="6za-1F-nXM" firstAttribute="leading" secondItem="Bid-vQ-bHY" secondAttribute="trailing" constant="50" id="K5x-og-jak"/>
+                            <constraint firstItem="bn4-wX-f0s" firstAttribute="top" secondItem="kKY-UB-RW9" secondAttribute="bottom" constant="35" id="Vuf-kS-R8w"/>
+                            <constraint firstItem="Bid-vQ-bHY" firstAttribute="top" secondItem="lar-RG-8RA" secondAttribute="bottom" constant="35" id="e2x-Xu-D1u"/>
+                            <constraint firstItem="6za-1F-nXM" firstAttribute="top" secondItem="RYl-Ah-aeZ" secondAttribute="bottom" constant="35" id="gLv-0H-dsK"/>
+                            <constraint firstItem="Ut3-eo-aJ4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="gkb-CV-JIi"/>
+                            <constraint firstItem="RYl-Ah-aeZ" firstAttribute="top" secondItem="bn4-wX-f0s" secondAttribute="bottom" constant="35" id="iuK-99-xmX"/>
+                            <constraint firstItem="bn4-wX-f0s" firstAttribute="leading" secondItem="Hqm-Jy-UUy" secondAttribute="trailing" constant="50" id="jTp-hX-RmM"/>
+                            <constraint firstItem="Bid-vQ-bHY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="pfT-Hq-tpu"/>
+                            <constraint firstItem="Hqm-Jy-UUy" firstAttribute="top" secondItem="Ut3-eo-aJ4" secondAttribute="bottom" constant="35" id="s08-uH-QzS"/>
+                            <constraint firstItem="lar-RG-8RA" firstAttribute="top" secondItem="Hqm-Jy-UUy" secondAttribute="bottom" constant="35" id="uNU-cB-Apf"/>
+                            <constraint firstItem="kKY-UB-RW9" firstAttribute="leading" secondItem="Ut3-eo-aJ4" secondAttribute="trailing" constant="50" id="vNf-m5-vXn"/>
+                            <constraint firstItem="bn4-wX-f0s" firstAttribute="leading" secondItem="kKY-UB-RW9" secondAttribute="leading" id="wgI-Ot-CH4"/>
+                            <constraint firstItem="RYl-Ah-aeZ" firstAttribute="leading" secondItem="kKY-UB-RW9" secondAttribute="leading" id="yCl-Ww-77i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="distanceLabel" destination="kKY-UB-RW9" id="NBn-fS-4nO"/>
+                        <outlet property="fuelEfficientLabel" destination="bn4-wX-f0s" id="xdj-jh-nI2"/>
+                        <outlet property="gasPriceLabel" destination="RYl-Ah-aeZ" id="w13-NB-Kzv"/>
+                        <outlet property="totalPriceLabel" destination="6za-1F-nXM" id="LwA-e3-AQx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="72"/>
+        </scene>
+    </scenes>
+</document>
